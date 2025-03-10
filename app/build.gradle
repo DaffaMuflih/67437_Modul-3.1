@@ -93,6 +93,7 @@ android {
 }
 
 dependencies {
+    
     implementation "org.jetbrains.kotlinx:kotlinx-coroutines-android:1.10.1"
     implementation "com.google.android.libraries.maps:maps:3.1.0-beta"
     implementation "com.google.maps.android:maps-v3-ktx:3.4.0"
@@ -138,4 +139,5 @@ dependencies {
     androidTestImplementation "com.google.dagger:hilt-android:2.55"
     androidTestImplementation "com.google.dagger:hilt-android-testing:2.55"
     kaptAndroidTest "com.google.dagger:hilt-compiler:2.55"
+
 }
